@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+
+/**
+* Create a position for the map
+* on the page */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 20px;
+  font-family: 'Quicksand', sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 0;
+  height: 250px;
+  margin-top: 20px;
+  width: 250px;
+}
+
+ #legend {
+   font-size: 13px;
+   padding: 0px 8px 11px;
+   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+   line-height: 15px;
+   height: 238px;
+   bottom: 22px;
+   width: 107px;
+ }
+ .legend-key {
+   display: inline-block;
+   border-radius: 20%;
+   width: 06px;
+   height: 08px;
+   padding: 5px;
+ } 
+
+ #legend1 {
+   font-size: 14px;
+   padding: 5px 8px 10px;
+   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+   line-height: 19px;
+   height: 100px;
+   bottom: 22px;
+   width: 100px;
+   Right: 133px;
+ }
+ .legend1-key {
+   display: inline-block;
+   border-radius: 50%;
+   width: 6px;
+   height: 06px;
+   padding: 5px;
+ }
+
+.mapboxgl-ctrl-geocoder {
+width: 280px !important;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+}
+#map {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ width: 100%;
+}
+#menu {
+ Position: absolute;
+ background: white;
+ padding: 8px;
+ font-family: "Quicksand", sans-serif; 
+ Left: 50px;
+ Top: 10px;
+}
+#zoom {
+  position: absolute;
+  background: white;
+  font-size: 14px;
+  padding: 5px 8px 10px 10px;
+ font-family: "Quicksand", sans-serif; 
+  Left: 50px;
+  Top: 95px;
+  Height: 16px;
+}
